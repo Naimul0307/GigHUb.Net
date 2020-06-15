@@ -168,17 +168,34 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\GigsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202006131446272_add gig &amp; gener.cs" />
+    <Compile Include="Migrations\202006131446272_add gig &amp; gener.Designer.cs">
+      <DependentUpon>202006131446272_add gig &amp; gener.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006131450584_gener.cs" />
+    <Compile Include="Migrations\202006131450584_gener.Designer.cs">
+      <DependentUpon>202006131450584_gener.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006131515262_Update Gig.cs" />
+    <Compile Include="Migrations\202006131515262_Update Gig.Designer.cs">
+      <DependentUpon>202006131515262_Update Gig.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\ApplicationDbContext.cs" />
+    <Compile Include="Models\Genre.cs" />
+    <Compile Include="Models\Gig.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewModels\GigsViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -236,6 +253,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Gigs\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -252,6 +270,17 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202006131446272_add gig &amp; gener.resx">
+      <DependentUpon>202006131446272_add gig &amp; gener.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006131450584_gener.resx">
+      <DependentUpon>202006131450584_gener.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006131515262_Update Gig.resx">
+      <DependentUpon>202006131515262_Update Gig.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

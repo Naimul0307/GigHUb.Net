@@ -106,3 +106,7 @@ D:\My Prectise\GigHub\obj\Debug\GigHub.csproj.CoreCompileInputs.cache
 D:\My Prectise\GigHub\obj\Debug\GigHub.csproj.CopyComplete
 D:\My Prectise\GigHub\obj\Debug\GigHub.dll
 D:\My Prectise\GigHub\obj\Debug\GigHub.pdb
+D:\My Prectise\GigHub\obj\Debug\GigHub.Migrations.addgiggener.resources
+D:\My Prectise\GigHub\obj\Debug\GigHub.csproj.GenerateResource.cache
+D:\My Prectise\GigHub\obj\Debug\GigHub.Migrations.gener.resources
+D:\My Prectise\GigHub\obj\Debug\GigHub.Migrations.UpdateGig.resources
