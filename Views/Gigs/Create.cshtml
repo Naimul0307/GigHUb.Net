@@ -5,14 +5,14 @@
 }
 
 <h2>Add a Gig</h2>
-<p class="alert alert-info">All Fields are <strong>Required</strong></p>
+<p class="alert alert-danger "> <strong>All Fields are Required</strong></p>
 
 @using (Html.BeginForm("Create", "Gigs"))
 {
     @Html.AntiForgeryToken()
     <div class="form-group">
         @Html.LabelFor(m => m.Venue)
-        @Html.TextBoxFor(m => m.Venue, new { @class = "form-control", autofocus = "autofocus" })
+        @Html.TextBoxFor(m => m.Venue, new { @class = "form-control", autofocus = "autofocus",placeholder="add venue" })
         @Html.ValidationMessageFor(m => m.Venue)
     </div>
     <div class="form-group">
@@ -27,9 +27,8 @@
     </div>
     <div class="form-group">
         @Html.LabelFor(m => m.Genre)
-        @Html.DropDownListFor(m => m.Genre, new SelectList(Model.Genres, "Id", "Name"), "Select Genre", new { @class = "form-control" })
+        @Html.DropDownListFor(m => m.Genre, new SelectList(Model.Genres, "Id", "Name"), "Select Genre", new { @class = "form-control"  })
         @Html.ValidationMessageFor(m => m.Genre)
-
     </div>
     <button type="submit" class="btn btn-danger">Save</button>
 }

@@ -45,5 +45,30 @@ span.field-validation-error {
 
     .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
         color: #fff;
-        background-color: rgba(239, 48, 11, 0.8117647058823529);
+        background-color: #be494966;
     }
+
+    .from-group {
+        margin-bottom:20px;
+    }
+
+    .body{
+        font-size:22px;
+    }
+    .form-control{
+        font-size:18px;
+        padding: 20px 15px;
+        border : 2px solid #000000;
+        border-radius:8px;
+    }
+.btn {
+    font-weight: bolder;
+    text-align: center;
+    border: 2px solid #000000;
+    padding: 8px 22px;
+    font-size: 18px;
+    border-radius: 9px;
+}
+.navbar-brand{
+    font-weight:700;
+}
