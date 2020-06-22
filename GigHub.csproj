@@ -174,24 +174,24 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202006131446272_add gig &amp; gener.cs" />
-    <Compile Include="Migrations\202006131446272_add gig &amp; gener.Designer.cs">
-      <DependentUpon>202006131446272_add gig &amp; gener.cs</DependentUpon>
+    <Compile Include="Migrations\202006220611445_Update Gig.cs" />
+    <Compile Include="Migrations\202006220611445_Update Gig.Designer.cs">
+      <DependentUpon>202006220611445_Update Gig.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202006131450584_gener.cs" />
-    <Compile Include="Migrations\202006131450584_gener.Designer.cs">
-      <DependentUpon>202006131450584_gener.cs</DependentUpon>
+    <Compile Include="Migrations\202006220612394_Add Genre.cs" />
+    <Compile Include="Migrations\202006220612394_Add Genre.Designer.cs">
+      <DependentUpon>202006220612394_Add Genre.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202006131515262_Update Gig.cs" />
-    <Compile Include="Migrations\202006131515262_Update Gig.Designer.cs">
-      <DependentUpon>202006131515262_Update Gig.cs</DependentUpon>
+    <Compile Include="Migrations\202006220642564_add application user name.cs" />
+    <Compile Include="Migrations\202006220642564_add application user name.Designer.cs">
+      <DependentUpon>202006220642564_add application user name.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\Gig.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -274,14 +274,14 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202006131446272_add gig &amp; gener.resx">
-      <DependentUpon>202006131446272_add gig &amp; gener.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202006220611445_Update Gig.resx">
+      <DependentUpon>202006220611445_Update Gig.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202006131450584_gener.resx">
-      <DependentUpon>202006131450584_gener.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202006220612394_Add Genre.resx">
+      <DependentUpon>202006220612394_Add Genre.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202006131515262_Update Gig.resx">
-      <DependentUpon>202006131515262_Update Gig.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202006220642564_add application user name.resx">
+      <DependentUpon>202006220642564_add application user name.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

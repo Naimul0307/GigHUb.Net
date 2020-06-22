@@ -64,6 +64,11 @@ namespace GigHub.Models
 
     public class RegisterViewModel
     {
+
+        [Required]
+        [StringLength(100)]
+        public string Name { get; set; }
+
         [Required]
         [EmailAddress]
         [Display(Name = "Email")]
@@ -79,6 +84,8 @@ namespace GigHub.Models
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+
     }
 
     public class ResetPasswordViewModel

@@ -3,11 +3,11 @@ namespace GigHub.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class gener : DbMigration
+    public partial class AddGenre : DbMigration
     {
         public override void Up()
         {
-            Sql("INSERT INTO Genres (Id,Name) VALUES(1,'Jazz')");
+            Sql("INSERT INTO Genres(Id,Name) VALUES(1,'Jazz')");
             Sql("INSERT INTO Genres (Id,Name) VALUES(2,'Rock')");
             Sql("INSERT INTO Genres (Id,Name) VALUES(3,'Blues')");
             Sql("INSERT INTO Genres (Id,Name) VALUES(4,'Country')");
