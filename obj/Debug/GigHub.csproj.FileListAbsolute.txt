@@ -222,3 +222,10 @@ D:\My Prectise\GigHub.Net\obj\Debug\GigHub.Migrations.UpdateGig.resources
 D:\My Prectise\GigHub.Net\obj\Debug\GigHub.csproj.GenerateResource.cache
 D:\My Prectise\GigHub.Net\obj\Debug\GigHub.Migrations.AddGenre.resources
 D:\My Prectise\GigHub.Net\obj\Debug\GigHub.Migrations.addapplicationusername.resources
+D:\My Prectise\GigHub.Net\obj\Debug\GigHub.Migrations.AddAttendence.resources
+D:\My Prectise\GigHub.Net\bin\System.Net.Http.Formatting.dll
+D:\My Prectise\GigHub.Net\bin\System.Web.Http.dll
+D:\My Prectise\GigHub.Net\bin\System.Web.Http.WebHost.dll
+D:\My Prectise\GigHub.Net\bin\System.Net.Http.Formatting.xml
+D:\My Prectise\GigHub.Net\bin\System.Web.Http.xml
+D:\My Prectise\GigHub.Net\bin\System.Web.Http.WebHost.xml
